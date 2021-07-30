@@ -387,7 +387,7 @@ public class BaseJdbcClient
         }
     }
 
-    private String getColumnString(ColumnMetadata column, String columnName)
+    protected String getColumnString(ColumnMetadata column, String columnName)
     {
         StringBuilder sb = new StringBuilder()
                 .append(quoted(columnName))

@@ -122,6 +122,7 @@
         <module>presto-redshift</module>
         <module>presto-sqlserver</module>
         <module>presto-mongodb</module>
+        <module>presto-oceanbase</module>
         <module>presto-bytecode</module>
         <module>presto-client</module>
         <module>presto-parser</module>
